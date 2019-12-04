@@ -1,0 +1,95 @@
+{
+  "menuList": [
+    {
+      "name": "试题录入",
+      "key": "sub1",
+      "icon": "database",
+      "sub": [
+        {
+          "name": "试卷切割",
+          "key": "/parttime/cutPaper",
+          "permission": "qb_cut"
+        },
+        {
+          "name": "试卷切割审核",
+          "key": "/parttime/cutPaperVerify",
+          "permission": "qb_cut_audit"
+        },
+        {
+          "name": "试卷录入",
+          "key": "/parttime/entryPaper",
+          "permission": "qb_entry"
+        },
+        {
+          "name": "试卷录入审核",
+          "key": "/parttime/entryPaperVerify",
+          "permission": "qb_entry_audit"
+        },
+        {
+          "name": "试卷贴标签",
+          "key": "/parttime/setPaperTags",
+          "permission": "qb_tag"
+        },
+        {
+          "name": "试卷贴标签审核",
+          "key": "/parttime/setPaperTagsVerify",
+          "permission": "qb_tag_audit"
+        }
+      ]
+    },
+    {
+      "name": "试卷管理",
+      "key": "sub2",
+      "icon": "book",
+      "sub": [
+        {
+          "name": "题库管理",
+          "key": "/parttime/questionmanagement",
+          "permission": "question_data_management"
+        },
+        {
+          "name": "组卷管理",
+          "key": "/parttime/papermanagement",
+          "permission": "exam_paper_data_management"
+        }
+      ]
+    },
+    {
+      "name": "教资题库",
+      "key": "sub3",
+      "icon": "book",
+      "sub": [
+        {
+          "name": "课程体系管理",
+          "key": "/parttime/TCCourseManagement",
+          "permission": "teacher-certification-course-page"
+        },
+        {
+          "name": "题目管理",
+          "key": "/parttime/TCQuestionManagement",
+          "permission": "teacher-certification-question-page"
+        },
+        {
+          "name": "试卷管理",
+          "key": "/parttime/TCPaperManagement",
+          "permission": "teacher-certification-paper-page"
+        }
+      ]
+    },
+    {
+      "name": "个人中心",
+      "key": "sub4",
+      "icon": "credit-card",
+      "sub": [
+        {
+          "name": "个人信息",
+          "key": "/parttime/personmsgmanager"
+        },
+        {
+          "name": "密码管理",
+          "key": "/parttime/personpassword"
+        }
+      ]
+    }
+  ]
+}

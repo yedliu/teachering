@@ -1,0 +1,226 @@
+{
+  "code": "0",
+  "message": "操作成功",
+  "data": [
+    {
+      "id": 309,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_TYPE_v1",
+      "groupName": "试卷类型",
+      "itemCode": "1",
+      "itemName": "同步测试",
+      "orderNum": 1,
+      "deleted": false,
+      "extra": "[{'k':'name','r':1,'s':[1]},{'k':'epName','r':1,'s':[2]},{'k':'subjectId','r':1,'s':1},{'k':'gradeId','r':1,'s':1},{'k':'termId','r':1,'s':1},{'k':'year','r':1,'s':1},{'k':'difficulty','r':1,'s':[2]},{'k':'provinceId','r':1,'s':0},{'k':'cityId','r':0,'s':0},{'k':'countyId','r':0,'s':0},{'k':'teachingEditionId','r':0,'s':1},{'k':'examTypeId','r':1,'s':0},{'k':'businessCardId','r':0,'s':1},{'k':'editionId','r':0,'s':[2]},{'k':'onlineFlag','r':1,'s':[2]},{'k':'source','r':1,'s':1},{'k':'purpose','r':1,'s':1}]"
+    },
+    {
+      "id": 310,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_TYPE_v1",
+      "groupName": "试卷类型",
+      "itemCode": "2",
+      "itemName": "单元测试",
+      "orderNum": 2,
+      "deleted": false,
+      "extra": "[{'k':'name','r':1,'s':[1]},{'k':'epName','r':1,'s':[2]},{'k':'subjectId','r':1,'s':1},{'k':'gradeId','r':1,'s':1},{'k':'termId','r':1,'s':1},{'k':'year','r':1,'s':1},{'k':'difficulty','r':1,'s':[2]},{'k':'provinceId','r':1,'s':0},{'k':'cityId','r':0,'s':0},{'k':'countyId','r':0,'s':0},{'k':'teachingEditionId','r':0,'s':1},{'k':'examTypeId','r':1,'s':0},{'k':'businessCardId','r':0,'s':1},{'k':'editionId','r':0,'s':[2]},{'k':'onlineFlag','r':1,'s':[2]},{'k':'source','r':1,'s':1},{'k':'purpose','r':1,'s':1}]"
+    },
+    {
+      "id": 311,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_TYPE_v1",
+      "groupName": "试卷类型",
+      "itemCode": "3",
+      "itemName": "专题试卷",
+      "orderNum": 3,
+      "deleted": false,
+      "extra": "[{'k':'name','r':1,'s':[1]},{'k':'epName','r':1,'s':[2]},{'k':'subjectId','r':1,'s':1},{'k':'gradeId','r':1,'s':1},{'k':'termId','r':1,'s':1},{'k':'year','r':1,'s':1},{'k':'difficulty','r':1,'s':[2]},{'k':'provinceId','r':0,'s':1},{'k':'cityId','r':0,'s':1},{'k':'countyId','r':0,'s':1},{'k':'teachingEditionId','r':0,'s':1},{'k':'examTypeId','r':1,'s':0},{'k':'businessCardId','r':0,'s':1},{'k':'editionId','r':0,'s':[2]},{'k':'onlineFlag','r':1,'s':[2]},{'k':'source','r':1,'s':1},{'k':'purpose','r':1,'s':1}]"
+    },
+    {
+      "id": 312,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_TYPE_v1",
+      "groupName": "试卷类型",
+      "itemCode": "4",
+      "itemName": "月考试卷",
+      "orderNum": 4,
+      "deleted": false,
+      "extra": "[{'k':'name','r':1,'s':[1]},{'k':'epName','r':1,'s':[2]},{'k':'subjectId','r':1,'s':1},{'k':'gradeId','r':1,'s':1},{'k':'termId','r':1,'s':1},{'k':'year','r':1,'s':1},{'k':'difficulty','r':1,'s':[2]},{'k':'provinceId','r':1,'s':1},{'k':'cityId','r':0,'s':1},{'k':'countyId','r':0,'s':1},{'k':'teachingEditionId','r':0,'s':1},{'k':'examTypeId','r':1,'s':0},{'k':'businessCardId','r':0,'s':1},{'k':'editionId','r':0,'s':[2]},{'k':'onlineFlag','r':1,'s':[2]},{'k':'source','r':1,'s':1},{'k':'purpose','r':1,'s':1}]"
+    },
+    {
+      "id": 313,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_TYPE_v1",
+      "groupName": "试卷类型",
+      "itemCode": "5",
+      "itemName": "开学考试",
+      "orderNum": 5,
+      "deleted": false,
+      "extra": "[{'k':'name','r':1,'s':[1]},{'k':'epName','r':1,'s':[2]},{'k':'subjectId','r':1,'s':1},{'k':'gradeId','r':1,'s':1},{'k':'termId','r':1,'s':1},{'k':'year','r':1,'s':1},{'k':'difficulty','r':1,'s':[2]},{'k':'provinceId','r':1,'s':1},{'k':'cityId','r':0,'s':1},{'k':'countyId','r':0,'s':1},{'k':'teachingEditionId','r':0,'s':1},{'k':'examTypeId','r':1,'s':0},{'k':'businessCardId','r':0,'s':1},{'k':'editionId','r':0,'s':[2]},{'k':'onlineFlag','r':1,'s':[2]},{'k':'source','r':1,'s':1},{'k':'purpose','r':1,'s':1}]"
+    },
+    {
+      "id": 314,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_TYPE_v1",
+      "groupName": "试卷类型",
+      "itemCode": "6",
+      "itemName": "期中考试",
+      "orderNum": 6,
+      "deleted": false,
+      "extra": "[{'k':'name','r':1,'s':[1]},{'k':'epName','r':1,'s':[2]},{'k':'subjectId','r':1,'s':1},{'k':'gradeId','r':1,'s':1},{'k':'termId','r':1,'s':1},{'k':'year','r':1,'s':1},{'k':'difficulty','r':1,'s':[2]},{'k':'provinceId','r':1,'s':1},{'k':'cityId','r':0,'s':1},{'k':'countyId','r':0,'s':1},{'k':'teachingEditionId','r':0,'s':1},{'k':'examTypeId','r':1,'s':0},{'k':'businessCardId','r':0,'s':1},{'k':'editionId','r':0,'s':[2]},{'k':'onlineFlag','r':1,'s':[2]},{'k':'source','r':1,'s':1},{'k':'purpose','r':1,'s':1}]"
+    },
+    {
+      "id": 315,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_TYPE_v1",
+      "groupName": "试卷类型",
+      "itemCode": "7",
+      "itemName": "期末考试",
+      "orderNum": 7,
+      "deleted": false,
+      "extra": "[{'k':'name','r':1,'s':[1]},{'k':'epName','r':1,'s':[2]},{'k':'subjectId','r':1,'s':1},{'k':'gradeId','r':1,'s':1},{'k':'termId','r':1,'s':1},{'k':'year','r':1,'s':1},{'k':'difficulty','r':1,'s':[2]},{'k':'provinceId','r':1,'s':1},{'k':'cityId','r':0,'s':1},{'k':'countyId','r':0,'s':1},{'k':'teachingEditionId','r':0,'s':1},{'k':'examTypeId','r':1,'s':0},{'k':'businessCardId','r':0,'s':1},{'k':'editionId','r':0,'s':[2]},{'k':'onlineFlag','r':1,'s':[2]},{'k':'source','r':1,'s':1},{'k':'purpose','r':1,'s':1}]"
+    },
+    {
+      "id": 316,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_TYPE_v1",
+      "groupName": "试卷类型",
+      "itemCode": "8",
+      "itemName": "水平会考",
+      "orderNum": 8,
+      "deleted": false,
+      "extra": "[{'k':'name','r':1,'s':[1]},{'k':'epName','r':1,'s':[2]},{'k':'subjectId','r':1,'s':1},{'k':'gradeId','r':1,'s':1},{'k':'termId','r':1,'s':0},{'k':'year','r':1,'s':1},{'k':'difficulty','r':1,'s':[2]},{'k':'provinceId','r':1,'s':1},{'k':'cityId','r':0,'s':1},{'k':'countyId','r':0,'s':1},{'k':'teachingEditionId','r':0,'s':1},{'k':'examTypeId','r':1,'s':0},{'k':'businessCardId','r':0,'s':1},{'k':'editionId','r':0,'s':0},{'k':'onlineFlag','r':1,'s':[2]},{'k':'source','r':1,'s':1},{'k':'purpose','r':1,'s':1}]"
+    },
+    {
+      "id": 317,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_TYPE_v1",
+      "groupName": "试卷类型",
+      "itemCode": "9",
+      "itemName": "竞赛测试",
+      "orderNum": 9,
+      "deleted": false,
+      "extra": "[{'k':'name','r':1,'s':[1]},{'k':'epName','r':1,'s':[2]},{'k':'subjectId','r':1,'s':1},{'k':'gradeId','r':1,'s':1},{'k':'termId','r':0,'s':1},{'k':'year','r':1,'s':1},{'k':'difficulty','r':1,'s':[2]},{'k':'provinceId','r':0,'s':1},{'k':'cityId','r':0,'s':1},{'k':'countyId','r':0,'s':1},{'k':'teachingEditionId','r':0,'s':1},{'k':'examTypeId','r':1,'s':0},{'k':'businessCardId','r':0,'s':1},{'k':'editionId','r':0,'s':[2]},{'k':'onlineFlag','r':1,'s':[2]},{'k':'source','r':1,'s':1},{'k':'purpose','r':1,'s':1}]"
+    },
+    {
+      "id": 318,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_TYPE_v1",
+      "groupName": "试卷类型",
+      "itemCode": "10",
+      "itemName": "高考模拟",
+      "orderNum": 10,
+      "deleted": false,
+      "extra": "[{'k':'name','r':1,'s':[1]},{'k':'epName','r':1,'s':[2]},{'k':'subjectId','r':1,'s':1},{'k':'gradeId','r':1,'s':1},{'k':'termId','r':0,'s':1},{'k':'year','r':1,'s':1},{'k':'difficulty','r':1,'s':[2]},{'k':'provinceId','r':1,'s':1},{'k':'cityId','r':0,'s':1},{'k':'countyId','r':0,'s':1},{'k':'teachingEditionId','r':0,'s':1},{'k':'examTypeId','r':1,'s':1},{'k':'businessCardId','r':0,'s':1},{'k':'editionId','r':0,'s':0},{'k':'onlineFlag','r':1,'s':[2]},{'k':'source','r':1,'s':1},{'k':'purpose','r':1,'s':1}]"
+    },
+    {
+      "id": 319,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_TYPE_v1",
+      "groupName": "试卷类型",
+      "itemCode": "11",
+      "itemName": "高考真题",
+      "orderNum": 11,
+      "deleted": false,
+      "extra": "[{'k':'name','r':1,'s':[1]},{'k':'epName','r':1,'s':[2]},{'k':'subjectId','r':1,'s':1},{'k':'gradeId','r':1,'s':1},{'k':'termId','r':0,'s':0},{'k':'year','r':1,'s':1},{'k':'difficulty','r':1,'s':[2]},{'k':'provinceId','r':1,'s':1},{'k':'cityId','r':0,'s':1},{'k':'countyId','r':0,'s':1},{'k':'teachingEditionId','r':0,'s':1},{'k':'examTypeId','r':1,'s':1},{'k':'businessCardId','r':0,'s':1},{'k':'editionId','r':0,'s':0},{'k':'onlineFlag','r':1,'s':[2]},{'k':'source','r':1,'s':1},{'k':'purpose','r':1,'s':1}]"
+    },
+    {
+      "id": 320,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_TYPE_v1",
+      "groupName": "试卷类型",
+      "itemCode": "12",
+      "itemName": "自主招生",
+      "orderNum": 12,
+      "deleted": false,
+      "extra": "[{'k':'name','r':1,'s':[1]},{'k':'epName','r':1,'s':[2]},{'k':'subjectId','r':1,'s':1},{'k':'gradeId','r':1,'s':1},{'k':'termId','r':0,'s':1},{'k':'year','r':1,'s':1},{'k':'difficulty','r':1,'s':[2]},{'k':'provinceId','r':0,'s':1},{'k':'cityId','r':0,'s':1},{'k':'countyId','r':0,'s':1},{'k':'teachingEditionId','r':0,'s':1},{'k':'examTypeId','r':1,'s':0},{'k':'businessCardId','r':0,'s':1},{'k':'editionId','r':0,'s':[2]},{'k':'onlineFlag','r':1,'s':[2]},{'k':'source','r':1,'s':1},{'k':'purpose','r':1,'s':1}]"
+    },
+    {
+      "id": 321,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_TYPE_v1",
+      "groupName": "试卷类型",
+      "itemCode": "13",
+      "itemName": "中考模拟",
+      "orderNum": 13,
+      "deleted": false,
+      "extra": "[{'k':'name','r':1,'s':[1]},{'k':'epName','r':1,'s':[2]},{'k':'subjectId','r':1,'s':1},{'k':'gradeId','r':1,'s':1},{'k':'termId','r':0,'s':0},{'k':'year','r':1,'s':1},{'k':'difficulty','r':1,'s':[2]},{'k':'provinceId','r':1,'s':1},{'k':'cityId','r':0,'s':1},{'k':'countyId','r':0,'s':1},{'k':'teachingEditionId','r':0,'s':1},{'k':'examTypeId','r':0,'s':1},{'k':'businessCardId','r':0,'s':1},{'k':'editionId','r':0,'s':0},{'k':'onlineFlag','r':1,'s':[2]},{'k':'source','r':1,'s':1},{'k':'purpose','r':1,'s':1}]"
+    },
+    {
+      "id": 322,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_TYPE_v1",
+      "groupName": "试卷类型",
+      "itemCode": "14",
+      "itemName": "中考真题",
+      "orderNum": 14,
+      "deleted": false,
+      "extra": "[{'k':'name','r':1,'s':[1]},{'k':'epName','r':1,'s':[2]},{'k':'subjectId','r':1,'s':1},{'k':'gradeId','r':1,'s':1},{'k':'termId','r':0,'s':0},{'k':'year','r':1,'s':1},{'k':'difficulty','r':1,'s':[2]},{'k':'provinceId','r':1,'s':1},{'k':'cityId','r':0,'s':1},{'k':'countyId','r':0,'s':1},{'k':'teachingEditionId','r':0,'s':1},{'k':'examTypeId','r':0,'s':1},{'k':'businessCardId','r':0,'s':1},{'k':'editionId','r':0,'s':0},{'k':'onlineFlag','r':1,'s':[2]},{'k':'source','r':1,'s':1},{'k':'purpose','r':1,'s':1}]"
+    },
+    {
+      "id": 323,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_TYPE_v1",
+      "groupName": "试卷类型",
+      "itemCode": "21",
+      "itemName": "小升初",
+      "orderNum": 15,
+      "deleted": false,
+      "extra": "[{'k':'name','r':1,'s':[1]},{'k':'epName','r':1,'s':[2]},{'k':'subjectId','r':1,'s':1},{'k':'gradeId','r':1,'s':1},{'k':'termId','r':0,'s':0},{'k':'year','r':1,'s':1},{'k':'difficulty','r':1,'s':[2]},{'k':'provinceId','r':1,'s':1},{'k':'cityId','r':0,'s':1},{'k':'countyId','r':0,'s':1},{'k':'teachingEditionId','r':0,'s':1},{'k':'examTypeId','r':0,'s':0},{'k':'businessCardId','r':0,'s':1},{'k':'editionId','r':0,'s':[2]},{'k':'onlineFlag','r':1,'s':[2]},{'k':'source','r':1,'s':1},{'k':'purpose','r':1,'s':1}]"
+    },
+    {
+      "id": 324,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_TYPE_v1",
+      "groupName": "试卷类型",
+      "itemCode": "16",
+      "itemName": "重点自测",
+      "orderNum": 16,
+      "deleted": false,
+      "extra": "[{'k':'name','r':1,'s':[1]},{'k':'epName','r':1,'s':[2]},{'k':'subjectId','r':1,'s':1},{'k':'gradeId','r':1,'s':1},{'k':'termId','r':1,'s':1},{'k':'year','r':1,'s':1},{'k':'difficulty','r':1,'s':[2]},{'k':'provinceId','r':0,'s':1},{'k':'cityId','r':0,'s':1},{'k':'countyId','r':0,'s':1},{'k':'teachingEditionId','r':0,'s':1},{'k':'examTypeId','r':0,'s':0},{'k':'businessCardId','r':0,'s':1},{'k':'editionId','r':0,'s':0},{'k':'onlineFlag','r':1,'s':[2]},{'k':'source','r':1,'s':1},{'k':'purpose','r':1,'s':1}]"
+    },
+    {
+      "id": 325,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_TYPE_v1",
+      "groupName": "试卷类型",
+      "itemCode": "17",
+      "itemName": "随堂测试",
+      "orderNum": 17,
+      "deleted": false,
+      "extra": "[{'k':'name','r':1,'s':[1]},{'k':'epName','r':1,'s':[2]},{'k':'subjectId','r':1,'s':1},{'k':'gradeId','r':1,'s':1},{'k':'termId','r':1,'s':1},{'k':'year','r':1,'s':1},{'k':'difficulty','r':1,'s':[2]},{'k':'provinceId','r':0,'s':1},{'k':'cityId','r':0,'s':1},{'k':'countyId','r':0,'s':1},{'k':'teachingEditionId','r':0,'s':1},{'k':'examTypeId','r':0,'s':0},{'k':'businessCardId','r':0,'s':1},{'k':'editionId','r':0,'s':0},{'k':'onlineFlag','r':1,'s':[2]},{'k':'source','r':1,'s':1},{'k':'purpose','r':1,'s':1}]"
+    },
+    {
+      "id": 326,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_TYPE_v1",
+      "groupName": "试卷类型",
+      "itemCode": "18",
+      "itemName": "学考",
+      "orderNum": 18,
+      "deleted": false,
+      "extra": "[{'k':'name','r':1,'s':[1]},{'k':'epName','r':1,'s':[2]},{'k':'subjectId','r':1,'s':1},{'k':'gradeId','r':1,'s':1},{'k':'termId','r':1,'s':0},{'k':'year','r':1,'s':1},{'k':'difficulty','r':1,'s':[2]},{'k':'provinceId','r':1,'s':1},{'k':'cityId','r':0,'s':1},{'k':'countyId','r':0,'s':1},{'k':'teachingEditionId','r':0,'s':1},{'k':'examTypeId','r':0,'s':0},{'k':'businessCardId','r':0,'s':1},{'k':'editionId','r':0,'s':0},{'k':'onlineFlag','r':1,'s':[2]},{'k':'source','r':1,'s':1},{'k':'purpose','r':1,'s':1}]"
+    },
+    {
+      "id": 327,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_TYPE_v1",
+      "groupName": "试卷类型",
+      "itemCode": "19",
+      "itemName": "选考",
+      "orderNum": 19,
+      "deleted": false,
+      "extra": "[{'k':'name','r':1,'s':[1]},{'k':'epName','r':1,'s':[2]},{'k':'subjectId','r':1,'s':1},{'k':'gradeId','r':1,'s':1},{'k':'termId','r':1,'s':0},{'k':'year','r':1,'s':1},{'k':'difficulty','r':1,'s':[2]},{'k':'provinceId','r':1,'s':1},{'k':'cityId','r':0,'s':1},{'k':'countyId','r':0,'s':1},{'k':'teachingEditionId','r':0,'s':1},{'k':'examTypeId','r':0,'s':0},{'k':'businessCardId','r':0,'s':1},{'k':'editionId','r':0,'s':0},{'k':'onlineFlag','r':1,'s':[2]},{'k':'source','r':1,'s':1},{'k':'purpose','r':1,'s':1}]"
+    },
+    {
+      "id": 328,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_TYPE_v1",
+      "groupName": "试卷类型",
+      "itemCode": "20",
+      "itemName": "心理测试",
+      "orderNum": 20,
+      "deleted": false,
+      "extra": "[{'k':'name','r':1,'s':[1]},{'k':'epName','r':1,'s':[2]},{'k':'subjectId','r':1,'s':1},{'k':'gradeId','r':1,'s':1},{'k':'termId','r':1,'s':0},{'k':'year','r':1,'s':1},{'k':'difficulty','r':1,'s':[2]},{'k':'provinceId','r':1,'s':0},{'k':'cityId','r':0,'s':0},{'k':'countyId','r':0,'s':0},{'k':'teachingEditionId','r':0,'s':0},{'k':'examTypeId','r':0,'s':0},{'k':'businessCardId','r':0,'s':1},{'k':'editionId','r':0,'s':0},{'k':'onlineFlag','r':1,'s':[2]},{'k':'source','r':1,'s':1},{'k':'purpose','r':1,'s':1},{'k':'evaluationTarget','r':1,'s':[2]},{'k':'evaluationPurpose','r':1,'s':[2]},{'k':'epBu','r':1,'s':[2]}]"
+    }
+  ]
+}

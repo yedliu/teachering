@@ -1,0 +1,781 @@
+{
+  "tr": [
+    {
+      "name": "版本数据管理",
+      "key": "sub1",
+      "icon": "wallet",
+      "sub": [
+        {
+          "name": "课程版本管理",
+          "key": "/tr/edition",
+          "permission": "edition_data_management",
+          "type": "tr"
+        },
+        {
+          "name": "教材版本管理",
+          "key": "/tr/textbook-edition",
+          "permission": "textbook_management",
+          "type": "tr"
+        }
+      ]
+    },
+    {
+      "name": "课程体系管理",
+      "key": "sub3",
+      "icon": "exception",
+      "sub": [
+        {
+          "name": "正式课体系管理",
+          "key": "/tr/course-system",
+          "permission": "course_system_management",
+          "type": "tr"
+        },
+        {
+          "name": "测评课体系管理",
+          "key": "/tr/test-lesson-knowledge",
+          "permission": "test_lesson_knowledge_management",
+          "type": "tr"
+        },
+        {
+          "name": "测评课推荐内容配置",
+          "key": "/tr/oneToOneTestReportService",
+          "permission": "test_lesson_recommend_content",
+          "type": "tr"
+        },
+        {
+          "name": "微课管理",
+          "key": "/tr/micro-lessons",
+          "type": "tr",
+          "permission": "micro-course-content",
+          "sub": [
+            {
+              "name": "课程内容",
+              "key": "/tr/micro-lessons/content",
+              "type": "tr",
+              "notShowOnNav": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PPT课件管理",
+      "key": "subextra",
+      "icon": "file-text",
+      "sub": [
+        {
+          "name": "正式课课件管理",
+          "key": "/courseWare/resource/course-manager",
+          "permission": "courseware_management",
+          "type": "courseWare"
+        },
+        {
+          "name": "测评课课件管理",
+          "key": "/courseWare/resource/testlesson-courseware",
+          "permission": "courseware_management",
+          "type": "courseWare"
+        }
+      ]
+    },
+    {
+      "name": "H5课件",
+      "key": "sub4",
+      "icon": "file-ppt",
+      "sub": [
+        {
+          "name": "知识元目录管理",
+          "key": "/courseWare/h5/feature-contents",
+          "permission": "knowledge_dir_management",
+          "type": "courseWare"
+        },
+        {
+          "name": "知识元切片管理",
+          "key": "/courseWare/h5/feature-list",
+          "permission": "slice_management",
+          "type": "courseWare",
+          "sub": [
+            {
+              "name": "编辑",
+              "key": "/courseWare/h5/feature-manage",
+              "permission": "slice_management",
+              "notShowOnNav": true,
+              "type": "courseWare"
+            },
+            {
+              "name": "引用列表",
+              "key": "/courseWare/h5/feature-list/reference-list",
+              "permission": "slice_management",
+              "notShowOnNav": true,
+              "type": "courseWare"
+            }
+          ]
+        },
+        {
+          "name": "课件讲义管理",
+          "key": "/courseWare/h5/course-list",
+          "permission": "zml_management",
+          "type": "courseWare",
+          "sub": [
+            {
+              "name": "编辑",
+              "key": "/courseWare/h5/course-manage",
+              "permission": "zml_management",
+              "notShowOnNav": true,
+              "type": "courseWare"
+            }
+          ]
+        },
+        {
+          "name": "调试课课件管理",
+          "key": "/courseWare/h5/debug-course-list",
+          "permission": "debug_courseware_hfive_managerment",
+          "type": "courseWare",
+          "sub": [
+            {
+              "name": "编辑",
+              "key": "/courseWare/h5/debug-course-manage",
+              "permission": "debug_courseware_hfive_managerment",
+              "notShowOnNav": true,
+              "type": "courseWare"
+            }
+          ]
+        },
+        {
+          "name": "互动课件管理",
+          "key": "/courseWare/h5/game-course-list",
+          "permission": "courseware_management",
+          "type": "courseWare"
+        },
+        {
+          "name": "课件纠错管理",
+          "key": "/courseWare/h5/correction-manage",
+          "permission": "courseware_hfive_error_managerment",
+          "type": "courseWare"
+        }
+      ]
+    },
+    {
+      "name": "试卷管理",
+      "key": "sub5",
+      "icon": "database",
+      "sub": [
+        {
+          "name": "自组试卷管理",
+          "key": "/tr/papermanagement",
+          "permission": "exam_paper_data_management",
+          "type": "tr",
+          "sub": [
+            {
+              "name": "题目管理",
+              "key": "/tr/questionfor1v1",
+              "permission": "exam_paper_data_management",
+              "notShowOnNav": true,
+              "type": "tr"
+            }
+          ]
+        },
+        {
+          "name": "考情分析",
+          "key": "/tr/examSituationAnalysis",
+          "permission": "exam_situation_analysis",
+          "type": "tr"
+        }
+      ]
+    },
+    {
+      "name": "标准作业管理",
+      "key": "sub6",
+      "icon": "book",
+      "sub": [
+        {
+          "name": "正式课作业管理",
+          "key": "/tr/standhomework",
+          "permission": "test_lesson_homework_management",
+          "type": "tr"
+        },
+        {
+          "name": "测评课作业管理",
+          "key": "/tr/testhomework",
+          "permission": "test_lesson_homework_management",
+          "type": "tr"
+        }
+      ]
+    },
+    {
+      "name": "优秀视频管理",
+      "key": "sub_h5",
+      "icon": "video-camera",
+      "sub": [
+        {
+          "name": "添加视频",
+          "key": "/tr/addvideo",
+          "permission": "add_vedio",
+          "type": "tr"
+        },
+        {
+          "name": "管理视频",
+          "key": "/tr/videomanage",
+          "permission": "vedio_management",
+          "type": "tr"
+        }
+      ]
+    },
+    {
+      "name": "学习资料系统",
+      "key": "sub11",
+      "icon": "credit-card",
+      "sub": [
+        {
+          "name": "学习资料体系管理",
+          "key": "/tr/study-system-management",
+          "permission": "training_material_managerment",
+          "type": "tr"
+        },
+        {
+          "name": "学习资料管理",
+          "key": "/courseWare/learning-materials-list",
+          "permission": "training_materials_management",
+          "type": "courseWare",
+          "sub": [
+            {
+              "name": "编辑",
+              "key": "/courseWare/learning-materials-manage",
+              "permission": "training_materials_management",
+              "notShowOnNav": true,
+              "type": "courseWare"
+            }
+          ]
+        },
+        {
+          "name": "题目打印",
+          "key": "/tr/questionPrint",
+          "permission": "question_print",
+          "type": "tr"
+        }
+      ]
+    }
+  ],
+  "childBU": [
+    {
+      "name": "课程体系管理",
+      "key": "courseSystemManagement",
+      "icon": "book",
+      "sub": [
+        {
+          "name": "正式课体系管理",
+          "key": "/tr/childBU/formalCourseSystemManagement",
+          "permission": "zm_child_management",
+          "type": "tr"
+        },
+        {
+          "name": "正式课课程管理",
+          "key": "/tr/childBU/formalCourseManagement",
+          "permission": "zm_child_management",
+          "type": "tr"
+        },
+        {
+          "name": "测评课课程管理",
+          "key": "/tr/childBU/evaluationCourseManagement",
+          "permission": "zm_child_management",
+          "type": "tr"
+        }
+      ]
+    },
+    {
+      "name": "作业试卷管理",
+      "key": "standardHomeWorkManagement",
+      "icon": "file-text",
+      "sub": [
+        {
+          "name": "标准作业管理",
+          "key": "/tr/childBU/homework-standard",
+          "permission": "zm_child_management",
+          "type": "tr",
+          "sub": [
+            {
+              "name": "导出作业",
+              "key": "/tr/childBU/questionPrint",
+              "permission": "zm_child_management",
+              "notShowOnNav": true,
+              "type": "tr"
+            }
+          ]
+        },
+        {
+          "name": "测评课作业管理",
+          "key": "/tr/childBU/test-homework",
+          "permission": "zm_child_management",
+          "type": "tr",
+          "sub": [
+            {
+              "name": "导出作业",
+              "key": "/tr/childBU/testQuestionPrint",
+              "permission": "zm_child_management",
+              "notShowOnNav": true,
+              "type": "tr"
+            }
+          ]
+        },
+        {
+          "name": "阶段测评卷管理",
+          "key": "/tr/childBU/child-paper",
+          "permission": "zm_child_management",
+          "type": "tr"
+        }
+      ]
+    },
+    {
+      "name": "少儿课件管理",
+      "key": "childh5Course",
+      "icon": "book",
+      "type": "courseWare",
+      "sub": [
+        {
+          "name": "少儿课件管理",
+          "key": "/courseWare/childBU/course-list",
+          "icon": "book",
+          "type": "courseWare",
+          "permission": "zm_child_courseware_management",
+          "sub": [
+            {
+              "name": "编辑",
+              "key": "/courseWare/childBU/zmg-course-manage",
+              "permission": "zm_child_courseware_management",
+              "notShowOnNav": true,
+              "type": "courseWare"
+            },
+            {
+              "name": "编辑",
+              "key": "/courseWare/childBU/zml-course-manage",
+              "permission": "zm_child_courseware_management",
+              "notShowOnNav": true,
+              "type": "courseWare"
+            }
+          ]
+        },
+        {
+          "name": "调试课课件管理",
+          "key": "/courseWare/childBU/debug-course-list",
+          "icon": "book",
+          "type": "courseWare",
+          "permission": "zm_child_debug_courseware_hfive_managerment",
+          "sub": [
+            {
+              "name": "编辑",
+              "key": "/courseWare/childBU/debug-zml-manage",
+              "permission": "zm_child_debug_courseware_hfive_managerment",
+              "notShowOnNav": true,
+              "type": "courseWare"
+            }
+          ]
+        },
+        {
+          "name": "少儿课件纠错管理",
+          "key": "/courseWare/childBU/correctionManage",
+          "icon": "book",
+          "type": "courseWare",
+          "permission": "zm_child_courseware_hfive_error_managerment"
+        }
+      ]
+    },
+    {
+      "name": "视频资源管理",
+      "key": "videoSourceManagement",
+      "icon": "play-circle-o",
+      "sub": [
+        {
+          "name": "录播课程视频管理",
+          "key": "/tr/childBU/videoSourceManagement",
+          "type": "tr",
+          "permission": "zm_child_course_system_audio"
+        }
+      ]
+    }
+  ],
+  "BasicData": [
+    {
+      "name": "元数据管理",
+      "key": "sub1",
+      "icon": "appstore",
+      "sub": [
+        {
+          "name": "知识点管理",
+          "key": "/tr/knowledge",
+          "permission": "knowledge_management",
+          "type": "tr"
+        },
+        {
+          "name": "考点管理",
+          "key": "/tr/examination-point",
+          "permission": "exam_point_management",
+          "type": "tr"
+        }
+      ]
+    },
+    {
+      "name": "题库管理",
+      "key": "sub2",
+      "icon": "book",
+      "sub": [
+        {
+          "name": "已入库题目管理",
+          "key": "/tr/questionmanagement",
+          "permission": "question_data_management",
+          "type": "tr"
+        },
+        {
+          "name": "题目纠错管理",
+          "key": "/tr/errorcorrectmanagement",
+          "permission": "question_corretion",
+          "type": "tr"
+        }
+      ]
+    },
+    {
+      "name": "素材库管理",
+      "key": "sub3",
+      "icon": "folder",
+      "sub": [
+        {
+          "name": "素材库目录管理",
+          "key": "/courseWare/h5/course-material",
+          "permission": "material_dir_management",
+          "type": "courseWare"
+        },
+        {
+          "name": "素材管理",
+          "key": "/courseWare/h5/course-material-contents",
+          "permission": "material_management",
+          "type": "courseWare"
+        }
+      ]
+    },
+    {
+      "name": "能力管理",
+      "key": "subAbility",
+      "icon": "smile-o",
+      "sub": [
+        {
+          "name": "能力标签管理",
+          "permission": "question_data_management",
+          "key": "/tr/abilityLabel",
+          "type": "tr"
+        },
+        {
+          "name": "思维体系管理",
+          "permission": "think_tag_management",
+          "key": "/tr/thinkTagManagement",
+          "type": "tr"
+        }
+      ]
+    },
+    {
+      "name": "视频资源管理",
+      "key": "subMicroCourseVideo",
+      "icon": "play-circle-o",
+      "sub": [
+        {
+          "name": "视频列表",
+          "key": "/tr/microCourseVideo",
+          "type": "tr",
+          "permission": "micro-course-videos"
+        }
+      ]
+    }
+  ],
+  "QualityCourse": [
+    {
+      "name": "课程内容管理",
+      "key": "/courseWare/bigClass/coursecontent",
+      "permission": "lecture_course_content_management",
+      "type": "courseWare",
+      "icon": "file-text"
+    },
+    {
+      "name": "课程体系管理",
+      "key": "/courseWare/bigClass/lessonsystem",
+      "permission": "lecture_course_system_management",
+      "type": "courseWare",
+      "icon": "credit-card"
+    },
+    {
+      "name": "优课课件管理",
+      "key": "/courseWare/bigClass/bigClassCoursewareList",
+      "permission": [
+        "lecutre_courseware_management",
+        "lecutre_courseware_download_print_delete"
+      ],
+      "type": "courseWare",
+      "icon": "file-ppt"
+    },
+    {
+      "name": "优课作业管理",
+      "key": "/tr/largeClassHomeWork",
+      "permission": "lecutre_clazz_standard_homework_management",
+      "type": "tr",
+      "icon": "copy"
+    }
+  ],
+  "PracticePartner": [
+    {
+      "name": "琴谱库管理",
+      "key": "sub12",
+      "icon": "layout",
+      "sub": [
+        {
+          "name": "琴谱分级",
+          "key": "sub13",
+          "icon": "book",
+          "permission": "piano_grading",
+          "showSubMenu": true,
+          "sub": [
+            {
+              "name": "按级别操作",
+              "key": "/courseWare/resource/musicLibrary/musicoperatebylevel",
+              "permission": "piano_grading",
+              "type": "courseWare"
+            },
+            {
+              "name": "琴谱回收站",
+              "key": "/courseWare/resource/musicLibrary/musicrecyclebin",
+              "permission": "piano_grading",
+              "type": "courseWare"
+            }
+          ]
+        },
+        {
+          "name": "热门标签分级",
+          "key": "sub14",
+          "icon": "tag",
+          "permission": "piano_popular_tag_rating",
+          "showSubMenu": true,
+          "sub": [
+            {
+              "name": "按级别操作",
+              "key": "/courseWare/resource/musicLibrary/hottagsoperatebylevel",
+              "permission": "piano_popular_tag_rating",
+              "type": "courseWare"
+            },
+            {
+              "name": "搜索失败词条",
+              "key": "/courseWare/resource/musicLibrary/hottagssearchfailure",
+              "permission": "piano_popular_tag_rating",
+              "type": "courseWare"
+            },
+            {
+              "name": "标签回收站",
+              "key": "/courseWare/resource/musicLibrary/hottagsrecyclebin",
+              "permission": "piano_popular_tag_rating",
+              "type": "courseWare"
+            }
+          ]
+        },
+        {
+          "name": "琴谱反馈",
+          "key": "/courseWare/resource/musicLibrary/musicfeedback",
+          "permission": "piano_feedback",
+          "type": "courseWare"
+        }
+      ]
+    }
+  ],
+  "UserPermission": [
+    {
+      "name": "正式人员管理",
+      "key": "sub101",
+      "icon": "team",
+      "sub": [
+        {
+          "name": "(正式) 用户管理",
+          "key": "/tr/officialpersonnel",
+          "permission": "official_staff_management",
+          "type": "tr",
+          "icon": "solution"
+        },
+        {
+          "name": "角色权限配置",
+          "key": "/tr/rolesmanage",
+          "permission": "role_permission_management",
+          "type": "tr",
+          "icon": "usergroup-add"
+        }
+      ]
+    }
+  ],
+  "Dashboard": [
+    {
+      "name": "测评课转化率数据",
+      "key": "/courseWare/resource/conversiondata",
+      "permission": "courseware_management",
+      "type": "courseWare",
+      "icon": "line-chart"
+    },
+    {
+      "name": "ZML课件使用情况汇总",
+      "key": "/courseWare/zmldataview",
+      "permission": "data_board",
+      "type": "courseWare",
+      "icon": "area-chart"
+    },
+    {
+      "name": "作业汇总情况",
+      "key": "/tr/data/homeworkSummary",
+      "permission": "data_board",
+      "type": "tr",
+      "icon": "dot-chart"
+    },
+    {
+      "name": "测评试卷使用情况",
+      "key": "/tr/data/testPaper",
+      "permission": "data_board",
+      "type": "tr",
+      "icon": "bar-chart"
+    },
+    {
+      "name": "题库数据",
+      "key": "/tr/data/questionLibraryData",
+      "permission": "data_board",
+      "type": "tr",
+      "icon": "line-chart"
+    },
+    {
+      "name": "纠错数据",
+      "key": "/tr/errorCorrectionBoard",
+      "permission": "data_board",
+      "type": "tr",
+      "icon": "dot-chart"
+    },
+    {
+      "name": "AI测评反馈",
+      "key": "/tr/evaluationFeedback",
+      "permission": "data_board",
+      "type": "tr",
+      "icon": "line-chart"
+    }
+  ],
+  "LocalTR": [
+    {
+      "name": "试题录入",
+      "key": "sub4",
+      "icon": "database",
+      "sub": [
+        {
+          "name": "试卷上传和分发",
+          "key": "/tr/addPaper",
+          "permission": "qb_upload",
+          "type": "tr",
+          "sub": [
+            {
+              "name": "题目管理",
+              "key": "/tr/questionforlocal",
+              "permission": "qb_upload",
+              "notShowOnNav": true,
+              "type": "tr"
+            }
+          ]
+        },
+        {
+          "name": "试卷切割",
+          "key": "/tr/getandcutpaper",
+          "permission": "qb_cut",
+          "type": "tr"
+        },
+        {
+          "name": "试卷切割审核",
+          "key": "/tr/papercutverify",
+          "permission": "qb_cut_audit",
+          "type": "tr"
+        },
+        {
+          "name": "试卷录入",
+          "key": "/tr/getandinputpaper",
+          "permission": "qb_entry",
+          "type": "tr"
+        },
+        {
+          "name": "试卷录入审核",
+          "key": "/tr/paperinputverify",
+          "permission": "qb_entry_audit",
+          "type": "tr"
+        },
+        {
+          "name": "试卷贴标签",
+          "key": "/tr/settags",
+          "permission": "qb_tag",
+          "type": "tr"
+        },
+        {
+          "name": "试卷贴标签审核",
+          "key": "/tr/tagsverify",
+          "permission": "qb_tag_audit",
+          "type": "tr"
+        },
+        {
+          "name": "试卷终审",
+          "key": "/tr/paperfinalverify",
+          "permission": "final_audit",
+          "type": "tr"
+        }
+      ]
+    },
+    {
+      "name": "用户和权限管理",
+      "key": "sub7",
+      "icon": "credit-card",
+      "sub": [
+        {
+          "name": "兼职用户管理",
+          "key": "/tr/temporarypersonnel",
+          "permission": "temporary_staff_management",
+          "type": "tr"
+        }
+      ]
+    },
+    {
+      "name": "薪资管理",
+      "key": "sub9",
+      "icon": "pay-circle",
+      "sub": [
+        {
+          "name": "试题录入价格设置",
+          "key": "/tr/standardwages-management",
+          "permission": "role_permission_management",
+          "type": "tr"
+        },
+        {
+          "name": "兼职人员薪资明细",
+          "key": "/tr/standardwages-data",
+          "permission": "role_permission_management",
+          "type": "tr"
+        }
+      ]
+    }
+  ],
+  "InterviewCsware": [
+    {
+      "name": "教资专用题库",
+      "key": "teacher_certification",
+      "icon": "credit-card",
+      "sub": [
+        {
+          "name": "题库目录管理",
+          "permission": "teacher-certification-course-page",
+          "key": "/tr/TCCourseManagement",
+          "type": "tr"
+        },
+        {
+          "name": "题目管理",
+          "permission": "teacher-certification-question-page",
+          "key": "/tr/TCQuestionManagement",
+          "type": "tr"
+        },
+        {
+          "name": "试卷管理",
+          "permission": "teacher-certification-paper-page",
+          "key": "/tr/TCPaperManagement",
+          "type": "tr"
+        }
+      ]
+    }
+  ]
+}

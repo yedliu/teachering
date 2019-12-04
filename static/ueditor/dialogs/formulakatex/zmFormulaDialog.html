@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>ueditor katex 公式插件</title>
+  <link href='https://statics-lib.zmlearn.com/katex/0.11.0/katex.min.css' rel='stylesheet'>
+  <script src='https://statics-lib.zmlearn.com/katex/0.11.0/katex.min.js'></script>
+  <script type="text/javascript" src="../internal.js"></script>
+  <link rel="stylesheet" href="formula.css" type="text/css" />
+</head>
+
+<body>
+  <div id="content">
+    <div id="menu"></div>
+    <div id="katex-wrapper">
+      <div id="katex-box">
+        <div id="latex"></div>
+      </div>
+      <div id="formula">
+        <p>公式编辑：</p>
+        <textarea id="formula-edit"></textarea>
+        <p>公式预览：</p>
+        <div id="formula-preview"></div>
+      </div>
+    </div>
+  </div>
+  <script src="./latex.js"></script>
+  <script src="./formula.js"></script>
+  <script>
+    window.addEventListener('load', function () {
+
+      // 用于处理公式录入时的兼容处理，防止在不同版本katex中展示效果不一致，或出现一个解析失败而另一个成功的问题。
+      const compatibleListForEntry = [
+        // //(?<!\\)%/g, '\\%',  // 存在兼容问题，支持后瞻的浏览器尚且不多
+        [/\\?%/g, '\\%'],
+        [/\\text{([^}]+)}/g, '$1']
+      ];
+      const compatibleForKatexInput = (str = '') => {
+        let res = str;
+        compatibleListForEntry.forEach((regRec) => {
+          res = res.replace(regRec[0], regRec[1]);
+        });
+        res = res.replace(/\s?([^\x00-\xff]+)/g, (e, $1) => {
+          return ` \\text{${$1}}`;
+        });
+        return res;
+      };
+
+      dialog.onok = function () {
+        const formulaDialog = editor.getDialog('formulakatex');
+        const formulaData = compatibleForKatexInput(formulaDialog.formulaData);
+        if (formulaData && formulaData.length > 0) {
+          formulaData && editor.execCommand('insertHtml', `<zmlatex contenteditable="false">${formulaData}</zmlatex>`);
+          formulaDialog.formulaData = '';
+          dialog.close();
+        }
+        return false;
+      }
+      dialog.onoptional = function () {
+        const formulaDialog = editor.getDialog('formulakatex');
+        const formulaData = compatibleForKatexInput(formulaDialog.formulaData);
+        if (formulaData && formulaData.length > 0) {
+          editor.fireEvent('formula2Img', {
+            action: 'katex2Img',
+            data: formulaData,
+            dialogClose: function () {
+              formulaDialog.formulaData = '';
+              dialog.close()
+            },
+          });
+        }
+        return false;
+      }
+
+      try {
+        document.querySelector('#formula-edit').focus();
+      } catch (err) {
+        console.warn(err);
+      }
+    })
+  </script>
+</body>
+
+</html>

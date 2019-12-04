@@ -1,0 +1,88 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font: 14px/1.5 "Microsoft YaHei", "思源黑体"
+}
+* {
+  box-sizing: border-box;
+}
+#content {
+  height: 100%;
+  padding: 0 10px;
+}
+#menu {
+  height: 30px;
+  line-height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#menu .menu-item {
+  cursor: pointer;
+}
+#katex-wrapper {
+  position: relative;
+  height: calc(100% - 30px);
+}
+#katex-box {
+  height: 100%;
+  width: 50%;
+  border: 1px solid #ddd;
+  overflow-y: auto;
+}
+#latex {
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  top: 0;
+  left: 0;
+}
+#latex .latex-item {
+  position: relative;
+  display: flex;
+  margin: 3px;
+  min-width: 30px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+#latex .latex-item .latex-item-mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+#formula {
+  /* min-height: 323px; */
+  position: absolute;
+  border: 1px solid #ddd;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  right: 0;
+  padding: 10px;
+  background: #efefef;
+  overflow-y: auto;
+}
+#formula-edit {
+  height: 200px;
+  width: 100%;
+  padding: 10px;
+  resize: none;
+  border: none;
+  border: 1px solid #ddd;
+}
+#formula-preview {
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  overflow: auto;
+}

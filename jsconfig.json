@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "app/*": ["./app/*"],
+      "api/*": ["./app/api/*"],
+      "components/*": ["./app/components/*"],
+      "containers/*": ["./app/containers/*"],
+      "images/*": ["./app/images/*"],
+      "utils/*": ["./app/utils/*"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist",
+    "app/lib",
+    "app/map-routes",
+    "app/tests",
+    "app/translations"
+  ],
+  "include": ["app/**/*"]
+}

@@ -1,0 +1,64 @@
+/*
+ *
+ * GetAndInputPaper constants
+ *
+ */
+
+export const DEFAULT_ACTION = 'app/GetAndInputPaper/DEFAULT_ACTION';
+export const CHANGE_PAGE_SATE_ACTION = 'app/GetAndInputPaper/CHANGE_PAGE_SATE_ACTION';
+export const GET_PROVINCE_LIST_ACTION = 'app/GetAndInputPaper/LISTT_PROVINCE_ID_ACTION';
+export const GET_CITY_LIST_ACTIOHN = 'app/GetAndInputPaper/GET_CITY_LIST_ACTIOHN';
+export const GET_COUNTY_LIST_ACTION = 'app/GetAndInputPaper/GET_COUNTY_LIST_ACTION';
+export const SET_PROVINCE_LIST_ACTION = 'app/GetAndInputPaper/SET_PROVINCE_LIST_ACTION';
+export const SET_CITY_LIST_ACTION = 'app/GetAndInputPaper/SET_CITY_LIST_ACTION';
+export const SET_COUNTY_LIST_ACTION = 'app/GetAndInputPaper/SET_COUNTY_LIST_ACTION';
+export const SET_SELECTED_PROVINCE_ACTION = 'app/GetAndInputPaper/SET_SELECTED_PROVINCE_ACTION';
+export const SET_SELECTED_CITY_ACTION = 'app/GetAndInputPaper/SET_SELECTED_CITY_ACTION';
+export const SET_SELECTED_COUNTY_ACTION = 'app/GetAndInputPaper/SET_SELECTED_COUNTY_ACTION';
+export const GET_SUBJECT_LIST_ACTION = 'app/GetAndInputPaper/GET_SUBJECT_LIST_ACTION';
+export const SET_SUBJECT_LIST_ACTION = 'app/GetAndInputPaper/SET_SUBJECT_LIST_ACTION';
+export const SET_SELECTED_SUBJECT_ACTION = 'app/GetAndInputPaper/SET_SELECTED_SUBJECT_ACTION';
+export const GET_GRADE_LIST_ACTION = 'app/GetAndInputPaper/GET_GRADE_LIST_ACTION';
+export const SET_GRADE_LIST_ACTION = 'app/GetAndInputPaper/SET_GRADE_LIST_ACTION';
+export const SET_SELECTED_GRADE_ACTION = 'app/GetAndInputPaper/SET_SELECTED_GRADE_ACTION';
+export const SET_PAGE_STATE_ENTERING = 'app/GetAndInputPaper/SET_PAGE_STATE_ENTERING';
+export const GET_CUR_PAPER = 'app/GetAndInputPaper/GET_CUR_PAPER';
+export const SET_RESULT_LIST = 'app/GetAndInputPaper/SET_RESULT_LIST';
+export const INDEX_INCREASE = 'app/IGetAndInputPaper/NDEX_INCREASE';
+export const SET_CUR_INDEX = 'app/IGetAndInputPaper/SET_CUR_INDEX';
+export const SET_CUR_ITEM = 'app/IGetAndInputPaper/SET_CUR_ITEM';
+export const SET_CUR_QUES = 'app/IGetAndInputPaper/SET_CUR_QUES';
+export const SUBMIT_CUR_QUES = 'app/IGetAndInputPaper/SUBMIT_CUR_QUES';
+export const BACK_FORWARD = 'app/IGetAndInputPaper/BACK_FORWARD';
+export const SET_CUR_PAPER = 'app/IGetAndInputPaper/SET_CUR_PAPER';
+export const SET_EP_ID = 'app/IGetAndInputPaper/SET_EP_ID';
+export const GET_PAPER_MSG_ACTION = 'app/GetAndInputPaper/GET_PAPER_MSG_ACTION';
+export const CHANGE_NOT_GET_PAPER_COUNT_ACTION = 'app/GetAndInputPaper/CHANGE_PAPER_COUNT_ACTION';
+export const CHANGE_HAS_GET_PAPER_COUNT_ACTION = 'app/GetAndInputPaper/CHANGE_HAS_GET_PAPER_COUNT_ACTION';
+export const SET_PAPER_LIST_ACTION = 'app/GetAndInputPaper/SET_PAPER_LIST_ACTION';
+export const CHANGE_PAPER_STATE_ACTION = 'app/GetAndInputPaper/CHANGE_PAPER_STATE_ACTION';
+export const CHANGE_ALERT_MODAL_SHOW_ACTION = 'app/GetAndInputPaper/CHANGE_ALERT_MODAL_SHOW_ACTION';
+export const CHANG_ALERT_MODAL_STATES_ACTION = 'app/GetAndInputPaper/CHANG_ALERT_MODAL_STATES_ACTION';
+export const CHANGE_PAPER_NEED_GET_ACTION = 'app/GetAndInputPaper/CHANGE_PAPER_NEED_GET_ACTION';
+export const GET_INPUT_PAPER_TASK_ACTION = 'app/GetAndInputPaper/GET_INPUT_PAPER_TASK_ACTION';
+export const CHANGE_NEED_INPUT_PAPER_ACTION = 'app/GetAndInputPaper/CHANGE_NEED_INPUT_PAPER_ACTION';
+export const CHANGE_NEED_INPUT_PAPER_ITEM_ACTION = 'app/GetAndInputPaper/CHANGE_NEED_INPUT_PAPER_ITEM_ACTION';
+export const SET_COMPLEX_QUESTION_MSG_ACTION = 'app/IGetAndInputPaper/SET_COMPLEX_QUESTION_MSG_ACTION';
+export const SET_COMPLEX_QUESTION_ACTION = 'app/IGetAndInputPaper/SET_COMPLEX_QUESTION_ACTION';
+export const TOGGLE_FINISH_MODAL = 'app/GetAndInputPaper/TOGGLE_FINISH_MODAL';
+export const SUBMIT_COMPLEX_QUESTION_ACTION = 'app/GetAndInputPaper/SUBMIT_COMPLEX_QUESTION_ACTION';
+export const SET_COMPLEX_QUESTION_ITEM_AND_MSG_ACTION = 'app/GetAndInputPaper/SET_COMPLEX_QUESTION_ITEM_AND_MSG_ACTION';
+export const GET_ALL_QUESTION_TYPE_LIST_ACTION = 'app/GetAndInputPaper/GET_ALL_QUESTION_TYPE_LIST_ACTION';
+export const SET_ALL_QUESTION_TYPE_LIST_ACTION = 'app/GetAndInputPaper/SET_ALL_QUESTION_TYPE_LIST_ACTION';
+export const SUBMIT_PAPER_TO_VERIFY = 'app/GetAndInputPaper/SUBMIT_PAPER_TO_VERIFY';
+export const SET_ALL_DONE = 'app/GetAndInputPaper/SET_ALL_DONE';
+export const CHANGE_SORT_ACTION = 'app/GetAndInputPaper/CHANGE_SORT_ACTION';
+export const SET_PAPER_DOWNLOAD_MSG_ACTION = 'app/GetAndInputPaper/SET_PAPER_DOWNLOAD_MSG_ACTION';
+export const CHANGE_PAGE_INDEX_ACTION = 'app/GetAndInputPaper/CHANGE_PAGE_INDEX_ACTION';
+export const SET_SELECTED_TEMPLATE_ACTION = 'app/GetAndInputPaper/SET_SELECTED_TEMPLATE_ACTION';
+export const SET_ERROR_LIST_ACTION = 'app/GetAndInputPaper/SET_ERROR_LIST_ACTION';
+export const SAVE_OTHERS_MSG_ACTION = 'app/GetAndInputPaper/SAVE_OTHERS_MSG_ACTION';
+export const SET_QUESTIONS_LIST_ACTION = 'app/GetAndInputPaper/SET_QUESTIONS_LIST_ACTION';
+export const CHANGE_QUESTIONS_INDEX_ACTION = 'app/GetAndInputPaper/CHANGE_QUESTIONS_INDEX_ACTION';
+export const SUBMIT_CURRENT_QUESTION_ACTION = 'app/GetAndInputPaper/SUBMIT_CURRENT_QUESTION_ACTION';
+export const CHANGE_TEMPLATE_LIST = 'app/GetAndInputPaper/CHANGE_TEMPLATE_LIST';

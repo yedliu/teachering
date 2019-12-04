@@ -1,0 +1,61 @@
+{
+  "code": "0",
+  "message": "操作成功",
+  "data": [
+    {
+      "id": 132,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_PURPOSE",
+      "groupName": "试卷测评用途",
+      "itemCode": "1",
+      "itemName": "校企合作",
+      "orderNum": 1,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 133,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_PURPOSE",
+      "groupName": "试卷测评用途",
+      "itemCode": "2",
+      "itemName": "师生配型测试",
+      "orderNum": 2,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 134,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_PURPOSE",
+      "groupName": "试卷测评用途",
+      "itemCode": "3",
+      "itemName": "分班测试",
+      "orderNum": 3,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 135,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_PURPOSE",
+      "groupName": "试卷测评用途",
+      "itemCode": "4",
+      "itemName": "阶段性测试",
+      "orderNum": 4,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 136,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_PURPOSE",
+      "groupName": "试卷测评用途",
+      "itemCode": "5",
+      "itemName": "其他",
+      "orderNum": 5,
+      "deleted": false,
+      "extra": null
+    }
+  ]
+}

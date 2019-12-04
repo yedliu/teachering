@@ -1,0 +1,22 @@
+# Don't check auto-generated stuff into git
+coverage
+build
+build-map-routes
+node_modules
+stats.json
+zmlPlayer
+zml-player
+dist
+dist-map-routes
+
+# Cruft
+.DS_Store
+.vscode
+.idea
+yarn.*
+yarn-error.log
+npm-debug.log
+.vs
+
+static/-_-.2018-09-01.js
+static/_-_.2018-09-01.js

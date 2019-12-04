@@ -1,0 +1,39 @@
+{
+  "code": "0",
+  "message": "操作成功",
+  "data": [
+    {
+      "id": 129,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_TARGET",
+      "groupName": "试卷测评对象",
+      "itemCode": "1",
+      "itemName": "学生",
+      "orderNum": 1,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 130,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_TARGET",
+      "groupName": "试卷测评对象",
+      "itemCode": "2",
+      "itemName": "教师",
+      "orderNum": 2,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 131,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_TARGET",
+      "groupName": "试卷测评对象",
+      "itemCode": "3",
+      "itemName": "家长",
+      "orderNum": 3,
+      "deleted": false,
+      "extra": null
+    }
+  ]
+}

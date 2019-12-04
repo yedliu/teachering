@@ -1,0 +1,270 @@
+{
+  "code": "0",
+  "message": "操作成功",
+  "data": [
+    {
+      "id": 21,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_TYPE",
+      "groupName": "卷型",
+      "itemCode": "1",
+      "itemName": "课标Ⅰ卷",
+      "orderNum": 1,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 22,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_TYPE",
+      "groupName": "卷型",
+      "itemCode": "2",
+      "itemName": "全国Ⅰ卷",
+      "orderNum": 2,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 23,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_TYPE",
+      "groupName": "卷型",
+      "itemCode": "3",
+      "itemName": "全国Ⅱ卷",
+      "orderNum": 3,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 24,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_TYPE",
+      "groupName": "卷型",
+      "itemCode": "4",
+      "itemName": "北京卷",
+      "orderNum": 4,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 25,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_TYPE",
+      "groupName": "卷型",
+      "itemCode": "5",
+      "itemName": "上海卷",
+      "orderNum": 5,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 26,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_TYPE",
+      "groupName": "卷型",
+      "itemCode": "6",
+      "itemName": "江苏卷",
+      "orderNum": 6,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 27,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_TYPE",
+      "groupName": "卷型",
+      "itemCode": "7",
+      "itemName": "预赛",
+      "orderNum": 7,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 28,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_TYPE",
+      "groupName": "卷型",
+      "itemCode": "8",
+      "itemName": "复赛",
+      "orderNum": 8,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 29,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_TYPE",
+      "groupName": "卷型",
+      "itemCode": "9",
+      "itemName": "决赛",
+      "orderNum": 9,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 30,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_TYPE",
+      "groupName": "卷型",
+      "itemCode": "10",
+      "itemName": "全国Ⅲ卷",
+      "orderNum": 10,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 31,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_TYPE",
+      "groupName": "卷型",
+      "itemCode": "11",
+      "itemName": "天津卷",
+      "orderNum": 11,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 32,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_TYPE",
+      "groupName": "卷型",
+      "itemCode": "12",
+      "itemName": "海南卷",
+      "orderNum": 12,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 33,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_TYPE",
+      "groupName": "卷型",
+      "itemCode": "13",
+      "itemName": "浙江卷",
+      "orderNum": 13,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 34,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_TYPE",
+      "groupName": "卷型",
+      "itemCode": "14",
+      "itemName": "北京卷数学（理科）",
+      "orderNum": 14,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 35,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_TYPE",
+      "groupName": "卷型",
+      "itemCode": "15",
+      "itemName": "北京卷数学（文科）",
+      "orderNum": 15,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 36,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_TYPE",
+      "groupName": "卷型",
+      "itemCode": "16",
+      "itemName": "全国Ⅰ卷数学（理科）",
+      "orderNum": 16,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 37,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_TYPE",
+      "groupName": "卷型",
+      "itemCode": "17",
+      "itemName": "全国Ⅰ卷数学（文科）",
+      "orderNum": 17,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 38,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_TYPE",
+      "groupName": "卷型",
+      "itemCode": "18",
+      "itemName": "全国Ⅱ卷数学（理科）",
+      "orderNum": 18,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 39,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_TYPE",
+      "groupName": "卷型",
+      "itemCode": "19",
+      "itemName": "全国Ⅱ卷数学（文科）",
+      "orderNum": 19,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 40,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_TYPE",
+      "groupName": "卷型",
+      "itemCode": "20",
+      "itemName": "全国Ⅲ卷数学（理科）",
+      "orderNum": 20,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 41,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_TYPE",
+      "groupName": "卷型",
+      "itemCode": "21",
+      "itemName": "全国Ⅲ卷数学（文科）",
+      "orderNum": 21,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 42,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_TYPE",
+      "groupName": "卷型",
+      "itemCode": "22",
+      "itemName": "天津卷数学（理科）",
+      "orderNum": 22,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 43,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_TYPE",
+      "groupName": "卷型",
+      "itemCode": "23",
+      "itemName": "天津卷数学（文科）",
+      "orderNum": 23,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 44,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_TYPE",
+      "groupName": "卷型",
+      "itemCode": "24",
+      "itemName": "优等生课程",
+      "orderNum": 24,
+      "deleted": false,
+      "extra": null
+    }
+  ]
+}

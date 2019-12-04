@@ -1,0 +1,28 @@
+{
+  "code": "0",
+  "message": "操作成功",
+  "data": [
+    {
+      "id": 137,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_BU",
+      "groupName": "试卷适用BU",
+      "itemCode": "1",
+      "itemName": "小班课",
+      "orderNum": 1,
+      "deleted": false,
+      "extra": null
+    },
+    {
+      "id": 138,
+      "parentId": 0,
+      "groupCode": "QB_EXAM_PAPER_BU",
+      "groupName": "试卷适用BU",
+      "itemCode": "2",
+      "itemName": "一对一",
+      "orderNum": 2,
+      "deleted": false,
+      "extra": null
+    }
+  ]
+}

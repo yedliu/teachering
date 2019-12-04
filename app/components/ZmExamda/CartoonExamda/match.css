@@ -1,0 +1,35 @@
+.examda-match-box-wrapper {
+  border: solid #6ECEF9 5px;
+}
+
+.examda-match-box-wrapper .active {
+  border: solid #6ECEF9 5px;
+}
+
+.examda-rightBox {
+  border: solid #61C82E 5px
+}
+
+.examda-falseBox {
+  border: solid #EF4C4F 5px
+}
+
+.examda-falseMask {
+  background: rgba(255,0,5,0.30);
+}
+
+.examda-styleMatchLine { /* 连线宽度 */
+  width: 6px;
+}
+
+.examda-insideLine { /* 连线 */
+  background: #6ECEF9;
+}
+
+.examda-rightLine { /* 正确连线 */
+  background: #61C82E;
+}
+
+.examda-falseLine { /* 错误连线 */
+  background: #EF4C4F;
+}

@@ -1,0 +1,47 @@
+/*可以在这里添加你自己的css*/
+
+p {
+  text-decoration-skip: edges box-decoration;
+  text-decoration-skip-ink: none;
+  line-height: 1.5em;
+}
+
+img {
+  border: 2px solid red;
+  max-width: 90%;
+  max-height: 400px;
+}
+img[zmtype="small"] {
+  vertical-align: middle;
+}
+/* img[zmtype="big"] {
+  max-height: 300px;
+} */
+
+zmindent {
+  display: inline-block;
+  width: 2em;
+  height: 1em;
+  overflow: hidden;
+  color: transparent;
+  user-select: none;
+}
+zmblank {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 4em;
+  text-align: center;
+  border: 1px solid #000;
+  user-select: none;
+}
+zmlatex {
+  background: rgba(233, 233, 233, 0.9);
+  user-select: none;
+}
+zmsubline {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 4em;
+  text-align: center;
+  border-bottom: 1px solid #000;
+}

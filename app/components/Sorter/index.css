@@ -1,0 +1,6 @@
+#iconWrapper .anticon {
+  line-height: 4px;
+}
+#iconWrapper .anticon.on {
+  color: #108ee9;
+}
